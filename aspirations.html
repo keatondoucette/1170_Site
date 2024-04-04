@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Aspirations</title>
+        <link rel="icon" href="Assets/K.jpg"> <!--[9]-->
+        <link rel="stylesheet" href="Styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+
+        <header>
+            <div id="headerContainer">
+                <p>Keaton</p> <p>Doucette</p>
+            </div>
+            <div id="colorChangerContainer">
+                <div id="defaultMode">
+                    Default
+                </div>
+                <div id="lightMode">
+                    Light Mode
+                </div>
+                <div id="colorfulMode">
+                    Colour Mode
+                </div>
+            </div>
+        </header>
+
+        <nav>
+            <div class="navMenu">
+                <div id="home">
+                    <a href="index.html">
+                        Home
+                    </a>
+                </div>
+                <div id="portfolio">
+                    <a href="portfolio.html">
+                        Portfolio
+                    </a>
+                </div>
+                <div id="aspirations">
+                    <a href="aspirations.html" id="currentPage">
+                        Aspirations & Connect
+                    </a>
+                </div>
+            </div>
+        </nav>
+
+        <main>
+            <table class="mainTable">
+                <tr class="rowMain">
+                    <td class="special">
+                        Dates
+                    </td>
+                    <td class="special">
+                        Goal Description
+                    </td>
+                </tr>
+                <tr class="rowA">
+                    <td>
+                        April 2024
+                    </td>
+                    <td>
+                        Complete my first year at Dalhousie
+                    </td>
+                </tr>
+                <tr class="rowB">
+                    <td>
+                        April 2025
+                    </td>
+                    <td>
+                        Complete my second year at Dalhousie
+                    </td>
+                </tr>
+                <tr class="rowA">
+                    <td>
+                        August 2025
+                    </td>
+                    <td>
+                        Complete my first Co-op work term
+                    </td>
+                </tr>
+                <tr class="rowB">
+                    <td>
+                        April 2026
+                    </td>
+                    <td>
+                        Complete my second Co-op work term
+                    </td>
+                </tr>
+                <tr class="rowA">
+                    <td>
+                        August 2026
+                    </td>
+                    <td>
+                        Complete my third year at Dalhousie
+                    </td>
+                </tr>
+                <tr class="rowB">
+                    <td>
+                        December 2026
+                    </td>
+                    <td>
+                        Complete my third Co-op work term
+                    </td>
+                </tr>
+                <tr class="rowA">
+                    <td>
+                        August 2027
+                    </td>
+                    <td>
+                        Complete my fourth year at Dalhousie
+                    </td>
+                </tr>
+                <tr class="rowB">
+                    <td>
+                        2028
+                    </td>
+                    <td>
+                        Hope to get a long-term job
+                    </td>
+                </tr>
+            </table>
+
+            <h1>Contact Me:</h1>
+            <div id="contact">
+                <form action="" method="POST" id="myForm">
+                    <div id="fnameContainer">
+                        <span id="important">*</span><label for="fname">First Name:</label> <br>
+                        <input type="text" id="fname" name="fname" placeholder="First Name" title="Enter Your First Name">
+                    </div>
+
+                    <div id="lnameContainer">
+                        <span id="important">*</span><label for="lname">Last Name:</label> <br>
+                        <input type="text" id="lname" name="lname" placeholder="Last Name" title="Enter Your Last Name">
+                    </div>
+
+                    <div id="emailContainer">
+                        <span id="important">*</span><label for="emailForm">Email:</label> <br>
+                        <input type="email" id="emailForm" name="emailForm" placeholder="example@ex.com" title="Enter Your Email">
+                    </div>
+
+                    <div id="phoneContainer">
+                        <label for="phone">Canada / US Phone Number:</label> <br>
+                        <input type="tel" id="phone" name="phone" placeholder="(XXX) XXX-XXXX" title="Enter Your Phone Number">
+                    </div>
+
+                    <div id="countryContainer">
+                        <span id="important">*</span><label for="country">Country:</label> <br>
+                        <select id="country" name="country" title="Select Your Country">
+                            <option selected="selected">---</option>
+                            <option value="australia">Australia</option>
+                            <option value="canada">Canada</option>
+                            <option value="france">France</option>
+                            <option value="uk">United Kingdom</option>
+                            <option value="america">United States of America</option>
+                            <option value="america">Other</option>
+                        </select>
+                    </div>
+
+                    <div id="messageContainer">
+                        <span id="important">*</span><label for="message">Message:</label> <br>
+                        <textarea id="message" name="message" placeholder="Enter Message" title="Enter Your Message Here"></textarea>
+                    </div>
+
+                    <div id="submitContainer">
+                        <input type="submit" id="submit" title="Submit" value="Submit">
+                    </div>
+                </form>
+                <div id="error"></div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="footerContainer">
+                <div id="copyright">
+                    © Keaton Doucette 2024
+                </div>
+                <div id="email">
+                    <a href="mailto:kt762693@dal.ca">
+                        <img src="Assets/email.png" alt="Email logo"> <!--[2]-->
+                    </a> 
+                </div>
+            </div>
+        </footer>
+    </body>
+    <script type="text/javascript" src="script.js"></script>
+</html>
